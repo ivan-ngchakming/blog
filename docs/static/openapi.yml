@@ -50688,6 +50688,12 @@ definitions:
     description: >-
       QueryAppVersionResponse is the response type for the Query/AppVersion RPC
       method.
+  ivanngchakming.blog.blog.MsgCreatePostResponse:
+    type: object
+    properties:
+      id:
+        type: string
+        format: uint64
   ivanngchakming.blog.blog.Params:
     type: object
     description: Params defines the parameters for the module.
